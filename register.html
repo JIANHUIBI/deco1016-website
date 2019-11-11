@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>REGISTER PAGE</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript">
+        if (window.location.toString().indexOf('pref=padindex') != -1) {} else {
+            if (/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
+                if (window.location.href.indexOf("?mobile") < 0) {
+                    try {
+                        if (/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+                            window.location.href = "m/m-index.html";
+                        } else if (/iPad/i.test(navigator.userAgent)) {} else {}
+                    } catch (e) {}
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- NAV -->
+    <div class="head container">
+        <a href="#" class="fl logo">
+            <h1>.</h1>
+        </a>
+        <ul id="nav" class="nav clearfix fl">
+            <li class="nLi on">
+                <p><a href="index.html">Home Page</a></p>
+            </li>
+            <li class="nLi">
+                <p><a href="#">OUR CLUBS</a></p>
+            </li>
+            <li class="nLi">
+                <p><a href="#">OUR CLASSES</a></p>
+            </li>
+            <!-- <li class="nLi">
+		      <p><a href="#">MEMBERSHIP</a></p>
+		    </li> -->
+            <li class="nLi">
+                <p><a href="#">OUR STORY</a></p>
+            </li>
+            <li class="nLi">
+                <p><a href="register.html">Join Now</a></p>
+            </li>
+            <li class="nLi">
+                <p><a href="Land.html">Login</a></p>
+            </li>
+        </ul>
+    </div>
+    <!-- IMG -->
+    <div id="slideBox register-slideBox" class="slideBox">
+        <div class="register-bp">
+            <div class="register1">
+                <div class="register1-title">
+                    <span class="register-title-text1">New member</span>
+                </div>
+                <input type="text" placeholder="Full name" class="register-email mt"><br>
+                <input type="text" placeholder="Email" class="register-email mt"><br>
+                <input type="text" placeholder="Password" class="register-email mt"><br>
+                <input type="text" placeholder="Confirm Password" class="register-email mt">
+                <div class="register-email mt" style="width: 220px;margin-left: 840px;height: 35px; background-color: #c5c5c5;">
+                    <a href="index.html">
+                        <span class="register-submit" style="font-size: 22px;">
+		  				Submit
+		  			</span>
+                    </a>
+                </div>
+            </div>
+            <div style="position: fixed; right: 80px; top:120px">
+                <a href="index.html">
+                    <img src="img/close.png" alt="close" width="30px">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="fl footcont">
+                <span>FITNESS CLUBS</span>
+                <p><a href="#clubs">OUR CLUBS</a></p>
+                <p><a href="#membership">OUR MEMBERSHIPS</a></p>
+                <p><a href="index.html">OUR STORY</a></p>
+                <p><a href="register.html">JOIN NOW</a></p>
+            </div>
+            <div class="fl footcont">
+                <span>ABOUT US</span>
+                <p><a href="#">FACEBOOK</a></p>
+                <p><a href="#">INSTAGRAM</a></p>
+                <p><a href="#">TWITTER</a></p>
+                <p><a href="#">YOUTUBE</a></p>
+            </div>
+            <div class="fl footcont">
+                <span>CONTACT US</span>
+                <p><a href="#">Address: 106 Queens Road Hurstville.</a></p>
+                <p><a href="#">Phone: 0434388529</a></p>
+                <p><a href="#">Email: fitnessclubs@gmail.com</a></p>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
